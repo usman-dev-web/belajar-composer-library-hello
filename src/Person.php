@@ -8,7 +8,7 @@ class Person
     {
     }
 
-    function hello(string $name): string
+    function hello(string $name = "Guest"): string
     {
         return "Hello $name, my name is $this->name" . PHP_EOL;
     }
