@@ -15,5 +15,9 @@
     ],
     "require": {
         "php": ">=8.0"
+    },
+    "scripts": {
+        "jalankan-server": "php -S localhost:8080",
+        "hello": "echo hello composer"
     }
 }
